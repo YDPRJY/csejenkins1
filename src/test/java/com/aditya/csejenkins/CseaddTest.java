@@ -12,5 +12,10 @@ class CseaddTest {
 			int result = c.add(2, 3); // Calls the add method
 	        assertEquals(5, result);  // Verifies if 2 + 3 equals 5
 		}
+		@Test
+		void test1() {
+			int result = c.mul(2, 3); // Calls the add method
+	        assertEquals(6, result);  // Verifies if 2 + 3 equals 5
+		}
 
 }

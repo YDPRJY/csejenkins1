@@ -10,7 +10,7 @@ class CseaddTest {
 		@Test
 		void test() {
 			int result = c.add(2, 3); // Calls the add method
-	        assertEquals(5, result);  // Verifies if 2 + 3 equals 5
+	        assertEquals(6, result);  // Verifies if 2 + 3 equals 5
 		}
 
 }

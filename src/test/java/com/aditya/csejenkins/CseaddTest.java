@@ -14,7 +14,7 @@ class CseaddTest {
 		}
 		
 		  @Test void test1() { int result = c.mul(2, 3); // Calls the add method
-		  assertEquals(5, result); // Verifies if 2 + 3 equals 5 }
+		  assertEquals(6, result); // Verifies if 2 + 3 equals 5 }
 		  }
 
 }
